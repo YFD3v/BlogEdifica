@@ -10,7 +10,7 @@ Instalação
 Clone o repositório:
 bash
 Copiar código
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/YFD3v/BlogEdifica.git
 Instale as dependências:
 bash
 Copiar código
