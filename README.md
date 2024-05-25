@@ -1,8 +1,5 @@
-Site Institucional de uma empresa de Edificíos até 18/05
-Baseado em: https://spcorporate.com.br
-Paleta de cores Verde Azulado: https://sarahpenido.com.br/paleta-de-cores-verde/
 
-1. Fazer Landing Page Padrão (home, sobre, contato)
-   Fazer usando theme pegada ecologica, minimalista
-2. Fazer painel admin
-3. Fazer sistema de blog
+Resolver bug do login, aparentemen não está criando a session. Porque eu logo com as credenciais certas: fabioyan2@gmail.com, thonny0108. Mas redireciona para página de login novamente por causa da sidebar.
+
+Depois de resolver isso, refatorar.
+

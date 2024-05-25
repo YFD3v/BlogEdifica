@@ -17,6 +17,13 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      lg: { max: "1023px" },
+      xl: { max: "1400px" },
+      md: { max: "767px" },
+
+      sm: { max: "639px" },
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -24,8 +31,8 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: "#6ae899",
-        secondary: "#30b27f",
+        primary: "#084d6e",
+        secondary: "#042b3d",
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
@@ -66,6 +73,20 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+    keyframes: {
+      "menu-dropdown": {
+        "0%": { transform: "translateY(-10%)", opacity: "0" },
+        "100%": { transform: "translateY(0)", opacity: "1" },
+      },
+      'menu-dropdown-exit': {
+        '0%': { transform: 'translateY(0)', opacity: '1' },
+        '100%': { transform: 'translateY(-10%)', opacity: '0' },
+      },
+    },
+    animation: {
+      "menu-dropdown": "menu-dropdown 0.5s ease-out forwards",
+      'menu-dropdown-exit': 'menu-dropdown-exit 0.5s ease-out forwards',
     },
   },
   plugins: [require("tailwindcss-animate")],
