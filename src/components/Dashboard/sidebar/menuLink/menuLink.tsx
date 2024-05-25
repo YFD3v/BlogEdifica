@@ -3,7 +3,15 @@ import { usePathname } from "next/navigation";
 import styles from "./menuLink.module.css";
 import Link from "next/link";
 
-const MenuLink = ({ item }) => {
+interface MenuLinkProps{
+  item: {
+    path: string,
+    title: string,
+    icon: any
+  }
+}
+
+const MenuLink = ({ item }: MenuLinkProps) => {
   const pathname = usePathname();
 
   return (

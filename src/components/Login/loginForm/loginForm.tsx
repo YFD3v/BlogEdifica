@@ -18,7 +18,7 @@ const LoginForm = () => {
           required
         />
         <button type="submit">Enviar</button>
-        {err && err}
+        {err !== undefined && <h3>{err}</h3>}
       </form>
     </div>
   );
