@@ -1,5 +1,5 @@
 # BlogEdifica Project
-Este é um projeto de blog/site instituicional desenvolvido com next para desenvolvimento de habiliades fullstack.
+Este é um projeto de blog/site instituicional desenvolvido com next para desenvolvimento de habilidades fullstack.
 
 ## Funcionalidades
 Publicação de Posts: O usuário pode criar e publicar novos artigos.
